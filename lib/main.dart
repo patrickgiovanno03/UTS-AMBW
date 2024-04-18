@@ -11,9 +11,10 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: "Yuk Makan", 
       debugShowCheckedModeBanner: false,
       home: const HomePage(),
-      theme: ThemeData(brightness: Brightness.dark),
+      theme: ThemeData(brightness: Brightness.dark, fontFamily: 'Lexend'),
     );
   }
 }

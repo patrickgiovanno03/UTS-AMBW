@@ -20,3 +20,9 @@ flutter:
   uses-material-design: true
   assets:
     - assets/
+  fonts:
+    - family: Lexend
+      fonts:
+        - asset: assets/fonts/Lexend-Regular.ttf
+        - asset: assets/fonts/Lexend-Bold.ttf
+          weight: 700
